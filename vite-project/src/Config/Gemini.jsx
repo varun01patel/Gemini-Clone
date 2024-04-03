@@ -1,5 +1,6 @@
 const apikey = "AIzaSyDblqlrkriiSTEctes0q2ZOc5Ur0efQETE"
 
+
 // node --version # Should be >= 18
 // npm install @google/generative-ai
 
@@ -10,7 +11,7 @@ import {
   } from "@google/generative-ai";
   
   const MODEL_NAME = "gemini-1.0-pro";
-  const API_KEY = "AIzaSyDblqlrkriiSTEctes0q2ZOc5Ur0efQETE";
+  const API_KEY = "AIzaSyDblqlrkriiSTEctes0q2ZOc5Ur0";
   
   async function runChat(prompt) {
     const genAI = new GoogleGenerativeAI(API_KEY);
