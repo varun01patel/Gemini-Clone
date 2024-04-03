@@ -17,6 +17,11 @@ const ContextProvider = (props) => {
         }, 20 * index); // Decreased delay time
     };
 
+    const newChat = ()=>{
+        setLoading(false)
+        setShowResult(false)
+    }
+
     const onSent = async (prompt) => {
        
        setResultData("")
@@ -52,7 +57,8 @@ const ContextProvider = (props) => {
         loading,
         resultData,
         input,
-        setInput
+        setInput,
+        newChat
     };
 
     return (
